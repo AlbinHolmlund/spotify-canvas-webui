@@ -3,7 +3,7 @@
         {
             "name": "spotify-canvases",
             "script": "npm",
-            "args": ["start"],
+            "args": "serve",
             "env": {
                 "NODE_ENV": "production"
             }

@@ -25,7 +25,7 @@ yarn install
 Start the web server, which serves both the api and the client (built with create-react-app):
 
 ```sh
-npm start
+npm run serve
 ```
 
 ## Development
