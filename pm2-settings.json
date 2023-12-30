@@ -1,9 +1,9 @@
 {
     "apps": [
         {
-            "name": "spotify-canvases",
-            "script": "npm",
-            "args": "serve",
+            "name": "spotify-canvases-server",
+            "script": "node",
+            "args": "server.js",
             "env": {
                 "NODE_ENV": "production"
             }

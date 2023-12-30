@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"node server.js\" \"cd client && npm start\"",
-    "build": "cd client && npm run build",
-    "serve": "(cd client && npm run build) && node server.js"
+    "build": "sh ./build-safe.sh",
+    "serve": "sh ./build-safe.sh && node server.js"
   },
   "keywords": [],
   "author": "",
