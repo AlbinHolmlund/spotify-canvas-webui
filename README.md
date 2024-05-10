@@ -8,7 +8,8 @@ This is the webui implementation of my other project https://github.com/AlbinHol
 
 That tool is a terminal application, while this is a web application. So it might be easier to use for some people.
 
-This webui implementation is available at https://canvas.skrap.info
+> *The link should work now again. I forgot to add this script to the new server when I switched to a new host.*  
+> This webui implementation is available at https://canvas.skrap.info
 
 ## Installation
 
