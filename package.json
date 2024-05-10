@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"node server.js\" \"cd client && npm start\"",
-    "build": "sh ./build-safe.sh",
-    "serve": "sh ./build-safe.sh && node server.js"
+    "build": "sh ./build_safe.sh",
+    "serve": "sh ./build_safe.sh && node server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +19,5 @@
     "express": "^4.18.2",
     "google-protobuf": "^3.21.2",
     "querystring": "^0.2.1"
-  },
-  "engines": {
-    "node": "9"
   }
 }
